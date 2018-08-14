@@ -1,26 +1,89 @@
-.container{
+/*Top menu*/
+.menu_container{
 	display:flex;
 	align-items:center;
 	padding: 8px 8px;
-	width: 100%;
+	flex-basis: 100%;
+	justify-content: space-between;
 }
 
-.container div{
+.menu_container div{
+	padding: 0px 8px;
+}
+
+.menu_container .empty{
 	padding: 8px;
+	flex-grow: 8;
 }
 
-.container empty{
-	padding: 8px;
+.menu_container a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family: arial, sans-serif;
+	color: #000;
 }
 
-.container a{
+a{
 	text-decoration: none;
 }
 
-.container a:hover{
+a:visited{
+	color: #000;
+}
+
+a:hover{
 	text-decoration: underline;
 }
 
-.rightalign{
-	align: right;
+#signinbutton{
+	border: 1px;
+	border-radius: 4px;
+	font-weight: bold;
+	outline: none;
+	color: #fff;
+	background-color: #4285f4;
+	padding: 8px 12px;
 }
+
+/*Main search*/
+.main_container{
+	position: relative;
+	text-align: center;
+	width:1200px;
+    margin: 7% auto;
+}
+
+.main_container input{
+	height: 43.9115px;
+	width: 50%;
+	box-shadow: 0.5px 1px 1px 0.1px rgba(0,0,0,0);
+	margin-top: 16px;
+	padding-left: 15px;
+}
+
+#mic{
+	position: absolute;
+	height: 22px;
+	width: 15px;
+	top: 47%;
+	right: 27%;
+}
+
+#submitbutton{
+	height: 36px;
+	width: 136px;
+	padding: 8px;
+	margin: 8px;
+	margin-top: 24px;
+	background-color: #f2f2f2;
+	border-radius: 1px solid #f2f2f2;
+	font-weight: bold;
+	color: #757575;
+	border-style: none;
+}
+
+#french{
+	font-family: arial, sans-serif;
+	font-size: 80%;
+}
+

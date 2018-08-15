@@ -49,7 +49,7 @@ a:hover{
 .main_container{
 	position: relative;
 	text-align: center;
-	width:1200px;
+	width:700px;
     margin: 7% auto;
 }
 
@@ -71,7 +71,7 @@ a:hover{
 
 #submitbutton{
 	height: 36px;
-	width: 136px;
+	width: 150px;
 	padding: 8px;
 	margin: 8px;
 	margin-top: 24px;
@@ -85,5 +85,51 @@ a:hover{
 #french{
 	font-family: arial, sans-serif;
 	font-size: 80%;
+}
+
+#french a{
+	color: #00008B;
+}
+
+/*footer*/
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0px 0px;
+}
+
+.table_footer{
+	width: 100%;
+	border-collapse: collapse;
+	background: #f2f2f2;
+	color: #666;
+	margin: 0px 0px;
+}
+
+td{
+	border: 1px solid #e4e4e4;
+	margin: 0px 0px;
+	padding-left: 27px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 13px;
+}
+
+
+#footer_container{
+	width: 100%;
+	padding: 0px 0px;
+}
+
+#footer_container div{
+	padding-left: 0px;
+}
+
+#footer_container div a{
+	color: #666;
+	font-size: 13px;
 }
 

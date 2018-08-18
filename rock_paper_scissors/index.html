@@ -1,0 +1,49 @@
+<!doctype = html>
+
+<html>
+
+<head>
+<title>Rock, Paper, Scissors</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="icon" href="favicon.ico">
+</head>
+
+<div class="container">
+
+<body>
+	<header>
+		<p>Rock, Paper, Scissors</p>
+	</header>
+	<div id="commentary">
+	<p id="commentaryP">Let's Play!</p>
+	</div>
+	<div class="center">
+		<button id="rock" onClick="init(this.id)"><img class="image" src="rock.png"></button>
+		<button id="paper" onClick="init(this.id)"><img class="image" src="paper.png"></button>
+		<button id="scissors" onClick="init(this.id)"><img class="image" src="scissors.png"></button>
+	</div>
+	<footer>
+	<div class="score">
+		<div class="player">
+			<h1 id="username">You</h1>
+		</div>
+		<div>
+			<h2 id="player_score">0</h2>
+			<h2>-</h2>
+			<h2 id="comp_score">0</h2>
+		</div>
+		<div class="player">
+			<h1>Computer</h1>
+		</div>
+	</div>
+	</footer>
+</body>
+
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>
